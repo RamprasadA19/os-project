@@ -1,4 +1,9 @@
-
+#include<unistd.h>
+#include<stdio.h>
+#include<sys/stat.h>
+#include<sys/types.h>
+int bt[20],p[20],pr[20],wt[20],tat[20],n,total_wt=0,total_tat=0,min,temp;
+float avg_wt,avg_tat;
 void sortbt()
 {int i;
 for( i=0;i<n;i++)
